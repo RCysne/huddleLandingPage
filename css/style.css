@@ -67,6 +67,11 @@ body {
   cursor: pointer;
 }
 
+#btn:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
 #medias {
   display: flex;
   justify-content: center;
@@ -144,14 +149,14 @@ footer {
   
 
   #btn {
-    width: 10rem;
-    height: 2.5rem;
+    width: 13rem;
+    height: 3.5rem;
     border: none;
     border-radius: 13rem;
     color: var(--primary-color);
     box-shadow: 2px 2px 8px grey;
     margin: 1rem 0 1rem 2rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     cursor: pointer;
   }
 
